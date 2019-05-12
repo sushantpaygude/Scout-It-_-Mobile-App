@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textItemName"
+        android:layout_toRightOf="@id/imageItemImage"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginLeft="2dp"
+        android:textSize="20sp"
+        android:ellipsize="end"
+        android:text="Dell Inspiron 15 5000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textItemName"
+        android:id="@+id/textCourseCategory"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"
+        android:gravity="end"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sem odio. Sed convallis leo eget dui dignissim facilisis. Fusce a ipsum eget nisi porta porta."/>
+
+</RelativeLayout>

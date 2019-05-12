@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ScoutIt</string>
+    <string name="enterusername">Enter username</string>
+    <string name="enterpassword">Enter password</string>
+    <string name="productname">Enter product name</string>
+    <string name="productdescription">Enter product description</string>
+    <string name="productcost">Enter product cost</string>
+    <string name="addimage">Add image</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="addcourse">Add New Course</string>
+    <string name="entercourse">Enter new course</string>
+    <string name="addexisting">Add Existing Course</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

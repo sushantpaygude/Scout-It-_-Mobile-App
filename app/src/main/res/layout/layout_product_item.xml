@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="5dp"
+android:background="@color/colorWhite"
+android:elevation="5dp">
+
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="75dp"
+    android:layout_height="75dp"
+    android:id="@+id/imageItemImage"
+    android:src="@drawable/dummy"
+    android:padding="2dp"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/textItemName"
+    android:layout_toRightOf="@id/imageItemImage"
+    android:layout_marginTop="2dp"
+    android:textColor="@color/colorBlack"
+    android:layout_marginLeft="2dp"
+    android:textSize="20sp"
+    android:ellipsize="end"
+    android:text="Dell Inspiron 15 5000"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/textItemName"
+    android:layout_toRightOf="@id/imageItemImage"
+    android:id="@+id/textProductDescription"
+    android:layout_marginTop="2dp"
+    android:layout_marginLeft="2dp"
+    android:textSize="12sp"
+    android:ellipsize="end"
+    android:maxLines="2"
+    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in sem odio. Sed convallis leo eget dui dignissim facilisis. Fusce a ipsum eget nisi porta porta."/>
+
+<TextView
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageItemImage"
+    android:layout_alignEnd="@id/imageItemImage"
+    android:id="@+id/textPrice"
+    android:textColor="@color/colorPrimary"
+    android:gravity="center"
+    android:text="$200"
+    android:layout_marginTop="2dp" android:textSize="20sp"/>
+
+<TextView
+    android:layout_width="75dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imageItemImage"
+    android:layout_alignParentEnd="true"
+    android:id="@+id/buttonContact"
+    android:background="@color/colorPrimary"
+    android:textColor="@color/colorWhite"
+    android:text="Contact"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:layout_marginTop="2dp"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:layout_below="@id/buttonContact"
+    android:background="@color/colorGrey"
+    android:layout_marginTop="2dp"/>
+</RelativeLayout>
+
+
+
